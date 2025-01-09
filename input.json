@@ -1,0 +1,156 @@
+{
+    "total": 3,
+    "p": 1,
+    "ps": 100,
+    "paging": {
+        "pageIndex": 1,
+        "pageSize": 100,
+        "total": 3
+    },
+    "effortTotal": 30,
+    "issues": [
+        {
+            "key": "4f519ad3-e83c-4598-bbb8-cb3ceac545a4",
+            "rule": "java:S120",
+            "severity": "MINOR",
+            "component": "demo-tdd:src/main/java/org/jsonToXml/Main.java",
+            "project": "demo-tdd",
+            "line": 1,
+            "hash": "b64d1652cf2ec9c449270254651877b1",
+            "textRange": {
+                "startLine": 1,
+                "endLine": 1,
+                "startOffset": 8,
+                "endOffset": 21
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this package name to match the regular expression '^[a-z_]+(\\.[a-z_][a-z0-9_]*)*$'.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "kare.koho@eficode.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2025-01-09T09:18:39+0000",
+            "updateDate": "2025-01-09T09:40:38+0000",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false
+        },
+        {
+            "key": "a1f40ce9-1f0e-4369-b8da-3796f15af194",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "demo-tdd:src/main/java/org/jsonToXml/Main.java",
+            "project": "demo-tdd",
+            "line": 13,
+            "hash": "c98c07b164749cfe73cd51c08a8c932b",
+            "textRange": {
+                "startLine": 13,
+                "endLine": 13,
+                "startOffset": 12,
+                "endOffset": 22
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "kare.koho@eficode.com",
+            "tags": [
+                "bad-practice",
+                "cert"
+            ],
+            "creationDate": "2025-01-09T09:18:39+0000",
+            "updateDate": "2025-01-09T09:40:38+0000",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "MODULAR",
+            "cleanCodeAttributeCategory": "ADAPTABLE",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false
+        },
+        {
+            "key": "eab87ae3-1f25-4c4f-b215-0c63f447faff",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "demo-tdd:src/main/java/org/jsonToXml/Main.java",
+            "project": "demo-tdd",
+            "line": 24,
+            "hash": "aaf2cb689d9df4909bfda7a89fce8bf2",
+            "textRange": {
+                "startLine": 24,
+                "endLine": 24,
+                "startOffset": 8,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "kare.koho@eficode.com",
+            "tags": [
+                "bad-practice",
+                "cert"
+            ],
+            "creationDate": "2025-01-09T09:18:39+0000",
+            "updateDate": "2025-01-09T09:40:38+0000",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "MODULAR",
+            "cleanCodeAttributeCategory": "ADAPTABLE",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false
+        }
+    ],
+    "components": [
+        {
+            "key": "demo-tdd:src/main/java/org/jsonToXml/Main.java",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "Main.java",
+            "longName": "src/main/java/org/jsonToXml/Main.java",
+            "path": "src/main/java/org/jsonToXml/Main.java"
+        },
+        {
+            "key": "demo-tdd",
+            "enabled": true,
+            "qualifier": "TRK",
+            "name": "demo-tdd",
+            "longName": "demo-tdd"
+        }
+    ],
+    "facets": []
+}
